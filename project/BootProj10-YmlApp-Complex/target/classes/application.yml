@@ -1,0 +1,38 @@
+#Employee Info
+org:
+  nit:
+   #simple properties
+   eno: 101
+   ename: satyam
+   #array properties
+   favColors:
+      - red
+      - blue
+      - yellow
+   #favColors:[red,blue,yellow]
+   
+   #collection properties
+   nickName:
+      - mahanty
+      - sahu
+      - sahoo
+   #nickName:[mahanty,sahoo,sahu]
+   
+   #set
+   phoneNumber:
+      - 222222222
+      - 111111111
+      - 432443344
+   #phoneNumber:[233323,2342234,23523]
+   
+   #map
+   idDetails:
+      aadharNo: IND2373839
+      voterId: IND2368899
+      panNo: IND2373839
+   #HAS-a properties
+   company:
+      id: 1453
+      name: HCL
+      addrs: hyd
+      size: 34567
